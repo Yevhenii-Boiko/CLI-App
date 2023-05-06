@@ -1,5 +1,3 @@
-console.log("It is very usefull, but it is difficult to study");
-
 const { Command } = require("commander");
 const program = new Command();
 program
@@ -33,7 +31,7 @@ function invokeAction({ action, id, name, email, phone }) {
       break;
 
     default:
-      console.warn("\x1B[31m Unknown action type!");
+    //   console.warn("\x1B[31m Unknown action type!");
   }
 }
 
